@@ -1,10 +1,10 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const FeedbackCard = ({
   index,
@@ -35,6 +35,7 @@ const FeedbackCard = ({
 
         <img
           src={image}
+          draggable={false}
           alt={`feedback_by-${name}`}
           className='w-10 h-10 rounded-full object-cover'
         />

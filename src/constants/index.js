@@ -1,28 +1,26 @@
 import {
-  mobile,
+  Antino,
+  Vedaxo,
+  Voxturr,
   backend,
+  carrent,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  figma,
+  git,
+  html,
+  javascript,
+  jobit,
+  mobile,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  tripguide,
+  typescript,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +40,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Js Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Next Js Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Node Js",
     icon: creator,
   },
 ];
@@ -108,65 +106,64 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Vedaxo Tech Solutions",
+    icon: Vedaxo,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed responsive web applications using ReactJS, ensuring a seamless and engaging user experience.",
+      "Consulted with clients on most appropriate Design and Layout.",
+      "Collaborated closely with UX/UI designers and backend developers to integrate front-end components seamlessly.",
+      "Owned the end-to-end software development lifecycle, from requirements to deployment, focusing on scalability and maintainability",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "React.js/Next.js Developer",
+    company_name: "Antino Labs",
+    icon: Antino,
+    iconBg: "#ffffff",
+    date: "Feb 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed robust and scalable web applications using ReactJS and NextJS and implemented Redux state management for improved performance and efficient data handling",
+      "Collaborated on web development projects for Fintech, Edtech, Mobility, and Healthcare sectors, delivering tailored solutions for diverse clients such as MamaStop,Travel Hangout, 50Fin, DevLabs etc.",
+      "Directed full project lifecycle, spanning requirement gathering to post-implementation support. Actively engaged in code reviews, debugging, and troubleshooting, fostering collaborative communication with team members and stakeholders for seamless project execution.",      
     ],
   },
+  {
+    title: "React.js/Next.js Developer",
+    company_name: "Voxturr",
+    icon: Voxturr,
+    iconBg: "#ffffff",
+    date: "Nov 2023 - Present",
+    points: [
+      "Developed responsive web applications using ReactJS, ensuring a seamless and engaging user experience.",
+      "Consulted with clients on most appropriate Design and Layout.",
+      "Collaborated closely with UX/UI designers and backend developers to integrate front-end components seamlessly.",
+      "Owned the end-to-end software development lifecycle, from requirements to deployment, focusing on scalability and maintainability.",
+    ],
+  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -262,4 +259,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
