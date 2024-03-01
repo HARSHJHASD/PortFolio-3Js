@@ -46,10 +46,10 @@ const Navbar = () => {
             draggable={false}
             src={logo}
             alt="logo"
-            className="w-9 h-9 object-contain"
+            className="w-20 h-8 object-contain"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Harsh &nbsp;
+            
             <span className="sm:block hidden"> | &nbsp;Frontend Developer</span>
           </p>
         </Link>

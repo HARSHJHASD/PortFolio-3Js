@@ -2,7 +2,7 @@ import backend from "./backend.png";
 import close from "./close.svg";
 import creator from "./creator.png";
 import github from "./github.png";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -31,6 +31,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import DevLabs from "./DevLabs.png"
+
 export {
   Antino,
   Vedaxo, Voxturr, backend, carrent, close, creator, css,
@@ -41,6 +43,7 @@ export {
   nodejs,
   reactjs,
   redux, shopify,
+  DevLabs,
   starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 };
 

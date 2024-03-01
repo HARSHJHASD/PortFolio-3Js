@@ -1,5 +1,6 @@
 import {
   Antino,
+  DevLabs,
   Vedaxo,
   Voxturr,
   backend,
@@ -20,7 +21,7 @@ import {
   threejs,
   tripguide,
   typescript,
-  web
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -195,25 +196,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dev Labs Alliance",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This EdTech project enables users to enroll in batches and webinars and offers teachers an opportunity to teach on the platform. It provides a user-friendly interface for browsing and enrollment, while empowering teachers to create and deliever their own Webinars and Batches.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "#383E56",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: DevLabs,
+    source_code_link: "https://www.devlabsalliance.com/",
   },
   {
     name: "Job IT",
