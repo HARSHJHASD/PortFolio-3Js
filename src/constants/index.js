@@ -196,7 +196,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Dev Labs Alliance",
+    name: "DevLabs Alliance",
     description:
       "This EdTech project enables users to enroll in batches and webinars and offers teachers an opportunity to teach on the platform. It provides a user-friendly interface for browsing and enrollment, while empowering teachers to create and deliever their own Webinars and Batches.",
     tags: [
