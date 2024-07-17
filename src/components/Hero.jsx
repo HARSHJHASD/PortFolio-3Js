@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Harsh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Developer with 2+ years of experience<br className='sm:block hidden' />
+            Developer with 2.5+ years of experience<br className='sm:block hidden' />
              in React , NextJs.
           </p>
         </div>
