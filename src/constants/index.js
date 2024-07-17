@@ -136,7 +136,7 @@ const experiences = [
     points: [
       "Developed robust and scalable web applications using ReactJS and NextJS and implemented Redux state management for improved performance and efficient data handling",
       "Collaborated on web development projects for Fintech, Edtech, Mobility, and Healthcare sectors, delivering tailored solutions for diverse clients such as MamaStop,Travel Hangout, 50Fin, DevLabs etc.",
-      "Directed full project lifecycle, spanning requirement gathering to post-implementation support. Actively engaged in code reviews, debugging, and troubleshooting, fostering collaborative communication with team members and stakeholders for seamless project execution.",      
+      "Directed full project lifecycle, spanning requirement gathering to post-implementation support. Actively engaged in code reviews, debugging, and troubleshooting, fostering collaborative communication with team members and stakeholders for seamless project execution.",
     ],
   },
   {
@@ -221,9 +221,9 @@ const projects = [
     source_code_link: "https://www.devlabsalliance.com/",
   },
   {
-    name: "Job IT",
+    name: "Almondz - Partner Onboarding(Fintech)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The web application enables companies to onboard partners for a Referral Incentive program, allowing them to refer clients and earn a secondary income. It offers an proper process for verification of identity of user using multiple process.",
     tags: [
       {
         name: "react",
@@ -242,9 +242,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Almondz-Ekyc(Fintech)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The App offers a comprehensive eKYC app for clients, incorporating multiple stages such as Digilocker verification, Finduit bank statement fetching, liveliness checks, and e-sign processes, ensuring a thorough and seamless completion of the eKYC process.",
     tags: [
       {
         name: "nextjs",
@@ -265,4 +265,3 @@ const projects = [
 ];
 
 export { experiences, projects, services, technologies, testimonials };
-
