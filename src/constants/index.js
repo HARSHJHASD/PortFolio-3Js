@@ -1,10 +1,9 @@
 import {
+  Almondz,
   Antino,
   DevLabs,
-  Vedaxo,
-  Voxturr,
+  Sparrow,
   backend,
-  carrent,
   creator,
   css,
   figma,
@@ -21,7 +20,7 @@ import {
   threejs,
   tripguide,
   typescript,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -53,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Node Js",
+    title: "AI Enthusiast",
     icon: creator,
   },
 ];
@@ -113,26 +112,34 @@ const technologies = [
   // },
 ];
 
+// helper function
+const calculateDuration = (startDate) => {
+  const start = new Date(startDate);
+  const now = new Date();
+
+  let months =
+    (now.getFullYear() - start.getFullYear()) * 12 +
+    (now.getMonth() - start.getMonth());
+
+  const years = Math.floor(months / 12);
+  months = months % 12;
+
+  if (years > 0 && months > 0) {
+    return `(${years} year${years > 1 ? "s" : ""} ${months} month${months > 1 ? "s" : ""})`;
+  } else if (years > 0) {
+    return `(${years} year${years > 1 ? "s" : ""})`;
+  } else {
+    return `(${months} month${months > 1 ? "s" : ""})`;
+  }
+};
+
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Vedaxo Tech Solutions",
-    icon: Vedaxo,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developed responsive web applications using ReactJS, ensuring a seamless and engaging user experience.",
-      "Consulted with clients on most appropriate Design and Layout.",
-      "Collaborated closely with UX/UI designers and backend developers to integrate front-end components seamlessly.",
-      "Owned the end-to-end software development lifecycle, from requirements to deployment, focusing on scalability and maintainability",
-    ],
-  },
   {
     title: "React.js/Next.js Developer",
     company_name: "Antino Labs",
     icon: Antino,
     iconBg: "#ffffff",
-    date: "Feb 2023 - Nov 2023",
+    date: "Full-time Jan 2022 to Nov 2023 (1 year 11 months)",
     points: [
       "Developed robust and scalable web applications using ReactJS and NextJS and implemented Redux state management for improved performance and efficient data handling",
       "Collaborated on web development projects for Fintech, Edtech, Mobility, and Healthcare sectors, delivering tailored solutions for diverse clients such as MamaStop,Travel Hangout, 50Fin, DevLabs etc.",
@@ -141,10 +148,10 @@ const experiences = [
   },
   {
     title: "React.js/Next.js Developer",
-    company_name: "Voxturr",
-    icon: Voxturr,
+    company_name: "Almondz Global Securities (AGSL)",
+    icon: Almondz,
     iconBg: "#ffffff",
-    date: "Nov 2023 - Present",
+    date: "Full-time Nov 2023 to Aug 2024 (10 months)",
     points: [
       "Developed responsive web applications using ReactJS, ensuring a seamless and engaging user experience.",
       "Consulted with clients on most appropriate Design and Layout.",
@@ -152,47 +159,55 @@ const experiences = [
       "Owned the end-to-end software development lifecycle, from requirements to deployment, focusing on scalability and maintainability.",
     ],
   },
+  {
+    title: "Full stack Developer",
+    company_name: "Sparrow - Risk Management System",
+    icon: Sparrow,
+    iconBg: "#E6DEDD",
+    date: `Full-time Aug 2024 to Present ${calculateDuration("2024-08-01")}`,
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+];
+ const testimonials = [
+  {
+    testimonial:
+      "Harsh was instrumental in building our internal dashboards at Antino Labs. His React and Next.js expertise meant we could scale features quickly without sacrificing performance.",
+    name: "Ravi Kumar",
+    designation: "Senior Software Engineer",
+    company: "Antino Labs",
+    image: "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...", 
+  },
+  {
+    testimonial:
+      "We relied on Harsh to deliver customer-facing modules for our fintech app at Almondz Global Securities. His clean code and proactive communication ensured smooth launches.",
+    name: "Ritesh Kumar",
+    designation: "Product Manager",
+    company: "Almondz Global Securities",
+    image: "https://media.licdn.com/dms/image/D4D03AQxxx/profile-displayphoto-shrink_100_100/0/...",
+  },
+  {
+    testimonial:
+      "Harsh’s ability to implement complex features like real-time WebSocket updates and advanced charting was critical for our risk management platform at Sparrow.",
+    name: "Sourav Saboudhi",
+    designation: "Senior Software Engineer",
+    company: "Sparrow Risk Management",
+    image: "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...",
+  },
   // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
+  //   testimonial:
+  //     "At MamaStop, Harsh worked closely with our design and backend teams to create a seamless frontend experience. His work improved our customer engagement metrics significantly.",
+  //   name: "Ananya Sharma",
+  //   designation: "Head of Product",
+  //   company: "MamaStop",
+  //   image: "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...",
   // },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -265,3 +280,4 @@ const projects = [
 ];
 
 export { experiences, projects, services, technologies, testimonials };
+

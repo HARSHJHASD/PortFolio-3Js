@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useMemo } from "react";
 import Tilt from "react-tilt";
 
 import { services } from "../constants";
@@ -37,6 +37,16 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+    // calculate experience from Jan 1, 2022
+  const experience = useMemo(() => {
+    const start = new Date("2022-01-01T00:00:00");
+    const now = new Date();
+    const diffMs = now - start;
+    const yearsDecimal = diffMs / (1000 * 60 * 60 * 24 * 365.25);
+    const rounded = Math.round(yearsDecimal * 10) / 10; // one decimal
+    return rounded.toFixed(1);
+  }, []);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -48,7 +58,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Frontend developer with 2.5+ years of experience in
+        I'm a skilled Frontend developer with {experience} years of experience in
         TypeScript and JavaScript, and expertise in frameworks like React,
         NextJs, and Three.js. I have collaborated closely with clients to create
         efficient, scalable, and user-friendly solutions that solve real-world
