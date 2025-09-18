@@ -20,7 +20,7 @@ import {
   threejs,
   tripguide,
   typescript,
-  web
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -125,7 +125,9 @@ const calculateDuration = (startDate) => {
   months = months % 12;
 
   if (years > 0 && months > 0) {
-    return `(${years} year${years > 1 ? "s" : ""} ${months} month${months > 1 ? "s" : ""})`;
+    return `(${years} year${years > 1 ? "s" : ""} ${months} month${
+      months > 1 ? "s" : ""
+    })`;
   } else if (years > 0) {
     return `(${years} year${years > 1 ? "s" : ""})`;
   } else {
@@ -153,10 +155,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Full-time Nov 2023 to Aug 2024 (10 months)",
     points: [
-      "Developed responsive web applications using ReactJS, ensuring a seamless and engaging user experience.",
-      "Consulted with clients on most appropriate Design and Layout.",
-      "Collaborated closely with UX/UI designers and backend developers to integrate front-end components seamlessly.",
-      "Owned the end-to-end software development lifecycle, from requirements to deployment, focusing on scalability and maintainability.",
+      "Led the frontend team in developing Partner Onboarding (Admin, WebApp), E-KYC Admin, and Client Backoffice projects at Almondz Trade, employing Redux and server-side rendering.",
+      "Enhanced UI/UX and integrated Face recognition and other features to elevate user interaction.",
+      "Improved customer satisfaction, resulting in a 50% increase in positive feedback and a 20% reduction in Bugs.",
     ],
   },
   {
@@ -166,21 +167,23 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: `Full-time Aug 2024 to Present ${calculateDuration("2024-08-01")}`,
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a full-scale ESG & EHS platform from scratch with enterprise-grade architecture.",
+      "Developed dynamic UIs and reports using ReactJS, NextJS, Redux Toolkit, AG Grid, and D3.js.",
+      "Delivered scalable features to support dynamic data and evolving client needs.",
+      "Worked closely with design, product, and backend teams to align tech with goals.",
+      "Promoted clean code, re-usability, and performance across the frontend stack.",
     ],
   },
 ];
- const testimonials = [
+const testimonials = [
   {
     testimonial:
       "Harsh was instrumental in building our internal dashboards at Antino Labs. His React and Next.js expertise meant we could scale features quickly without sacrificing performance.",
     name: "Ravi Kumar",
     designation: "Senior Software Engineer",
     company: "Antino Labs",
-    image: "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...", 
+    image:
+      "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...",
   },
   {
     testimonial:
@@ -188,7 +191,8 @@ const experiences = [
     name: "Ritesh Kumar",
     designation: "Product Manager",
     company: "Almondz Global Securities",
-    image: "https://media.licdn.com/dms/image/D4D03AQxxx/profile-displayphoto-shrink_100_100/0/...",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQxxx/profile-displayphoto-shrink_100_100/0/...",
   },
   {
     testimonial:
@@ -196,7 +200,8 @@ const experiences = [
     name: "Sourav Saboudhi",
     designation: "Senior Software Engineer",
     company: "Sparrow Risk Management",
-    image: "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...",
   },
   // {
   //   testimonial:
@@ -207,7 +212,6 @@ const experiences = [
   //   image: "https://media.licdn.com/dms/image/D5603AQxxx/profile-displayphoto-shrink_100_100/0/...",
   // },
 ];
-
 
 const projects = [
   {
@@ -280,4 +284,3 @@ const projects = [
 ];
 
 export { experiences, projects, services, technologies, testimonials };
-
