@@ -3,6 +3,7 @@ import {
   Antino,
   DevLabs,
   Sparrow,
+  Vedaxo,
   backend,
   creator,
   css,
