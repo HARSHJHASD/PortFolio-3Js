@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-tilt";
-import { github } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -13,7 +12,6 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -35,20 +33,6 @@ const ProjectCard = ({
             alt="project_image"
             className="w-full cursor-pointer h-full object-fit rounded-2xl"
           />
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                draggable={false}
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div>
         </div>
 
         <div className="mt-5">

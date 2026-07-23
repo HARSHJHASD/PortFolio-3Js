@@ -58,11 +58,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Frontend developer with {experience} years of experience in
-        TypeScript and JavaScript, and expertise in frameworks like React,
-        NextJs, and Three.js. I have collaborated closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+        Experienced in building scalable, high-performance web applications
+        using ReactJS, NextJS, Redux Toolkit, Tailwind CSS, Chakra UI, and
+        modern frontend tools. I have a strong background in Sustainability,
+        Fintech, and Consultancy domains with proven expertise in
+        component-based architecture, performance optimization, and
+        collaborative product delivery.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

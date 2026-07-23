@@ -75,6 +75,50 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        <div className='mt-6 rounded-2xl bg-tertiary p-6'>
+          <p className='text-white text-[16px] font-semibold mb-4'>Reach out directly</p>
+          <p className='text-secondary text-[15px] leading-7'>
+            <strong>Email:</strong>{" "}
+            <a
+              href='mailto:harshjha19101997@gmail.com'
+              className='text-white hover:text-[#915EFF]'
+            >
+              harshjha19101997@gmail.com
+            </a>
+          </p>
+          <p className='text-secondary text-[15px] leading-7'>
+            <strong>Phone:</strong>{" "}
+            <a
+              href='tel:+916394581304'
+              className='text-white hover:text-[#915EFF]'
+            >
+              +91 63945 81304
+            </a>
+          </p>
+          <p className='text-secondary text-[15px] leading-7'>
+            <strong>LinkedIn:</strong>{" "}
+            <a
+              href='https://www.linkedin.com/in/harshjhasd/'
+              target='_blank'
+              rel='noreferrer'
+              className='text-white hover:text-[#915EFF]'
+            >
+              linkedin.com/in/harshjhasd
+            </a>
+          </p>
+          <p className='text-secondary text-[15px] leading-7'>
+            <strong>GitHub:</strong>{" "}
+            <a
+              href='https://github.com/HARSHJHASD'
+              target='_blank'
+              rel='noreferrer'
+              className='text-white hover:text-[#915EFF]'
+            >
+              github.com/HARSHJHASD
+            </a>
+          </p>
+        </div>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}

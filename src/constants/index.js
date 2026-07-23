@@ -44,15 +44,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Js Developer",
+    title: "React JS & Next JS",
     icon: mobile,
   },
   {
-    title: "Next Js Developer",
+    title: "Redux Toolkit Specialist",
     icon: backend,
   },
   {
-    title: "AI Enthusiast",
+    title: "Tailwind & UI Systems",
     icon: creator,
   },
 ];
@@ -137,41 +137,53 @@ const calculateDuration = (startDate) => {
 
 const experiences = [
   {
-    title: "React.js/Next.js Developer",
-    company_name: "Antino Labs",
-    icon: Antino,
-    iconBg: "#ffffff",
-    date: "Full-time Jan 2022 to Nov 2023 (1 year 11 months)",
-    points: [
-      "Developed robust and scalable web applications using ReactJS and NextJS and implemented Redux state management for improved performance and efficient data handling",
-      "Collaborated on web development projects for Fintech, Edtech, Mobility, and Healthcare sectors, delivering tailored solutions for diverse clients such as MamaStop,Travel Hangout, 50Fin, DevLabs etc.",
-      "Directed full project lifecycle, spanning requirement gathering to post-implementation support. Actively engaged in code reviews, debugging, and troubleshooting, fostering collaborative communication with team members and stakeholders for seamless project execution.",
-    ],
-  },
-  {
-    title: "React.js/Next.js Developer",
-    company_name: "Almondz Global Securities (AGSL)",
-    icon: Almondz,
-    iconBg: "#ffffff",
-    date: "Full-time Nov 2023 to Aug 2024 (10 months)",
-    points: [
-      "Led the frontend team in developing Partner Onboarding (Admin, WebApp), E-KYC Admin, and Client Backoffice projects at Almondz Trade, employing Redux and server-side rendering.",
-      "Enhanced UI/UX and integrated Face recognition and other features to elevate user interaction.",
-      "Improved customer satisfaction, resulting in a 50% increase in positive feedback and a 20% reduction in Bugs.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
+    title: "Software Developer",
     company_name: "Sparrow - Risk Management System",
     icon: Sparrow,
     iconBg: "#E6DEDD",
-    date: `Full-time Aug 2024 to Present ${calculateDuration("2024-08-01")}`,
+    date: `Aug 2024 - Present ${calculateDuration("2024-08-01")}`,
     points: [
       "Built a full-scale ESG & EHS platform from scratch with enterprise-grade architecture.",
-      "Developed dynamic UIs and reports using ReactJS, NextJS, Redux Toolkit, AG Grid, and D3.js.",
+      "Developed dynamic UIs and complex reports using ReactJS, NextJS, Redux Toolkit, AG Grid, and D3.js.",
       "Delivered scalable features to support dynamic data and evolving client needs.",
-      "Worked closely with design, product, and backend teams to align tech with goals.",
-      "Promoted clean code, re-usability, and performance across the frontend stack.",
+      "Collaborated with design, product, and backend teams to align technology with business goals.",
+      "Promoted clean code, reusability, and performance across the frontend stack.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Almondz Global Securities",
+    icon: Almondz,
+    iconBg: "#ffffff",
+    date: "Jun 2024 - Aug 2024",
+    points: [
+      "Led frontend development for Partner Onboarding, E-KYC Admin, and Client Back-office modules using Redux and Redux Persist.",
+      "Improved UX with cleaner flows and reduced bugs, leading to better feedback and stronger product stability.",
+      "Mentored junior developers through code reviews and best practices, driving team growth and code quality.",
+    ],
+  },
+  {
+    title: "Independent Front-end Consultant",
+    company_name: "Freelance / Independent",
+    icon: jobit,
+    iconBg: "#ffffff",
+    date: "Nov 2023 - Jun 2024",
+    points: [
+      "Led frontend development for Partner Onboarding, E-KYC Admin, and Client Back-office at Almondz Trade using Redux and Redux Persist.",
+      "Improved UX with cleaner flows and fewer bugs, resulting in better feedback and stronger stability.",
+      "Managed junior developers through code reviews, mentorship, and frontend best practices.",
+    ],
+  },
+  {
+    title: "Associate Software Developer",
+    company_name: "Antino Labs",
+    icon: Antino,
+    iconBg: "#ffffff",
+    date: "Jan 2023 - Nov 2023",
+    points: [
+      "Developed robust and scalable web applications using ReactJS, NextJS, and Redux state management, improving performance and data handling.",
+      "Delivered tailored solutions for Fintech, Edtech, Mobility, and Healthcare clients including Mama-Stop, Travel Hangout, 50Fin, and Dev-Labs.",
+      "Built responsive user experiences and collaborated with product teams to implement efficient, reusable frontend architecture.",
     ],
   },
 ];

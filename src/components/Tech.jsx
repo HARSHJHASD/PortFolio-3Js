@@ -6,50 +6,27 @@ import { BallCanvas } from "./canvas";
 
 // manual skill list (you can also keep this in constants.js if preferred)
 const skills = [
-  // Core Web
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "DOM",
-
-  // Frontend Frameworks & Libraries
-  "React.js",
-  "Next.js",
-  "Three.js",
-  "Framer Motion",
-  "Redux",
-  "Context API",
-  "Hooks",
-  "JSX",
-
-  // UI / Styling
+  "ReactJS",
+  "NextJS",
+  "Redux Toolkit",
   "Tailwind CSS",
-  "Material UI",
   "Chakra UI",
-  "NPM",
-  "UI Development",
-  "Responsive Design",
-
-  // Data Visualization
+  "Material UI",
+  "Ant Design",
+  "Framer Motion",
   "D3.js",
-  "Highcharts",
-
-  // Tools & Utilities
-  "Git",
-  "Axios",
-  "WebSockets",
-  "Ag-Grid",
-  "Orval",
-
-  // Backend Basics
-  "Node.js",
-
-  // Soft Skills
-  "Communication Skills",
-  "Leadership",
-  "Planning",
-  "Management",
+  "React Query (TanStack Query)",
+  "Zustand",
+  "React Native",
+  "Webpack",
+  "NodeJS",
+  "SQL",
+  "MongoDB",
+  "ExpressJS",
+  "Artificial Intelligence",
+  "MVC Architecture",
+  "Performance Optimization",
+  "Component-Based Architecture",
 ];
 
 

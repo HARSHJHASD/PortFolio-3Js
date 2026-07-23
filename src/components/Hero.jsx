@@ -1,26 +1,9 @@
-import React, { useMemo } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
-  // start date: Jan 1, 2022 (local timezone)
-  const experience = useMemo(() => {
-    const start = new Date("2022-01-01T00:00:00");
-    const now = new Date();
-
-    // difference in milliseconds
-    const diffMs = now - start;
-
-    // convert to years using average year length (including leap years)
-    const yearsDecimal = diffMs / (1000 * 60 * 60 * 24 * 365.25);
-
-    // round to one decimal place
-    const rounded = Math.round(yearsDecimal * 10) / 10;
-
-    return rounded.toFixed(1); // returns string like "3.7"
-  }, []);
-
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -33,12 +16,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Harsh</span>
+            Hi, I'm <span className='text-[#915EFF]'>Harsh Jha</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Developer with {experience} years of experience
-            <br className='sm:block hidden' />
-            in Frontend Development using ReactJs.
+            Frontend developer with 4+ years of experience building
+            scalable, high-performance web applications using ReactJS,
+            NextJS, Redux Toolkit, Tailwind CSS and modern UI libraries.
           </p>
         </div>
       </div>
