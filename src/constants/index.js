@@ -186,6 +186,18 @@ const experiences = [
       "Built responsive user experiences and collaborated with product teams to implement efficient, reusable frontend architecture.",
     ],
   },
+  {
+    title: "Full Stack Development Intern",
+    company_name: "Vedaxo Tech Solutions",
+    icon: Vedaxo,
+    iconBg: "#ffffff",
+    date: "Feb 2021 - Aug 2021",
+    points: [
+      "Led requirement gathering for project planning and engineered dynamic frontend layouts.",
+      "Implemented secure client-side authentication mechanisms and responsive UI components.",
+      "Collaborated with team members to ensure application stability and user-focused experience.",
+    ],
+  },
 ];
 const testimonials = [
   {

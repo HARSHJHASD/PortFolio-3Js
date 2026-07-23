@@ -98,12 +98,12 @@ const Contact = () => {
           <p className='text-secondary text-[15px] leading-7'>
             <strong>LinkedIn:</strong>{" "}
             <a
-              href='https://www.linkedin.com/in/harshjhasd/'
+              href='https://www.linkedin.com/in/harsh-jha-3499203a4/'
               target='_blank'
               rel='noreferrer'
               className='text-white hover:text-[#915EFF]'
             >
-              linkedin.com/in/harshjhasd
+              linkedin.com/in/harsh-jha-3499203a4
             </a>
           </p>
           <p className='text-secondary text-[15px] leading-7'>
@@ -122,7 +122,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='hidden mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
