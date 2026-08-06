@@ -58,13 +58,28 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Experienced in building scalable, high-performance web applications
-        using ReactJS, NextJS, Redux Toolkit, Tailwind CSS, Chakra UI, and
-        modern frontend tools. I have a strong background in Sustainability,
-        Fintech, and Consultancy domains with proven expertise in
-        component-based architecture, performance optimization, and
-        collaborative product delivery.
+        I’m a Frontend Engineer focused on building products that solve real
+        business problems across ESG, EHS, FinTech, and enterprise SaaS. Over
+        the past four years, I’ve delivered scalable dashboards, complex
+        workflows, reusable component systems, and data-rich interfaces while
+        collaborating closely with design, product, and backend teams.
       </motion.p>
+
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl">
+        {[
+          "Scalable React and Next.js architectures",
+          "Performance optimization and accessible UI systems",
+          "Enterprise dashboards, KPIs, and complex workflows",
+          "AI-assisted development with GitHub Copilot and MCP",
+        ].map((item) => (
+          <div
+            key={item}
+            className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-secondary"
+          >
+            {item}
+          </div>
+        ))}
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

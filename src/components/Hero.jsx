@@ -19,14 +19,18 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Harsh Jha</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Frontend developer with 4+ years of experience building
-            scalable, high-performance web applications using ReactJS,
-            NextJS, Redux Toolkit, Tailwind CSS and modern UI libraries.
+            Senior Frontend Engineer with 4+ years of experience building
+            scalable, high-performance web applications with React.js,
+            Next.js, TypeScript, and modern UI systems. I also work with
+            AI-assisted development tools like GitHub Copilot and MCP to
+            ship faster without compromising quality.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className="absolute inset-0 top-[180px] sm:top-[220px] md:top-[260px] flex items-center justify-center pointer-events-none">
+        <ComputersCanvas />
+      </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
