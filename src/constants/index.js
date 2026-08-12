@@ -31,7 +31,15 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -53,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "AI-Assisted Development",
+    title: "OpenAI & Google GenAI Integrations",
     icon: creator,
   },
 ];

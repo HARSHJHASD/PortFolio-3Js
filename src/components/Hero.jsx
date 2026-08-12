@@ -19,11 +19,11 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Harsh Jha</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Senior Frontend Engineer with 4+ years of experience building
-            scalable, high-performance web applications with React.js,
-            Next.js, TypeScript, and modern UI systems. I also work with
-            AI-assisted development tools like GitHub Copilot and MCP to
-            ship faster without compromising quality.
+            Full-stack developer building scalable, high-performance web
+            applications with React.js, Next.js, Node.js, TypeScript, and
+            modern UI systems. I integrate LLM capabilities using OpenAI and
+            Google GenAI, alongside AI-assisted workflows, to deliver
+            thoughtful products faster—without compromising quality.
           </p>
         </div>
       </div>

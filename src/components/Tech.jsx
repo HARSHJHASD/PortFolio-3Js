@@ -2,6 +2,7 @@ import React from "react";
 
 import { technologies } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { BallCanvas } from "./canvas";
 
 // manual skill list (you can also keep this in constants.js if preferred)
@@ -23,7 +24,9 @@ const skills = [
   "SQL",
   "MongoDB",
   "ExpressJS",
-  "Artificial Intelligence",
+  "OpenAI API",
+  "Google GenAI",
+  "LLM Integration",
   "MCP",
   "GitHub Copilot",
   "AI Agents",
@@ -37,6 +40,10 @@ const skills = [
 const Tech = () => {
   return (
     <div className="flex flex-col items-center gap-10 w-full">
+      <div className="w-full text-center">
+        <p className={styles.sectionSubText}>Tools I use</p>
+        <h2 className={styles.sectionHeadText}>Technical Skills.</h2>
+      </div>
       {/* Existing Ball UI */}
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
@@ -59,4 +66,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "skills");

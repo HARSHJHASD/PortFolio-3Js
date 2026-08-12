@@ -12,6 +12,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -21,9 +22,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        onClick={() =>
-          window.open("https://www.devlabsalliance.com/", "_blank", "noopener")
-        }
+        onClick={() => window.open(source_code_link, "_blank", "noopener,noreferrer")}
         className="bg-tertiary p-5 cursor-pointer rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
@@ -85,4 +84,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

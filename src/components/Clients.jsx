@@ -14,6 +14,10 @@ const clients = [
   { name: "WEX", short: "WX", accent: "from-[#0f766e] to-[#34d399]" },
   { name: "OTSUKA", short: "OT", accent: "from-[#d946ef] to-[#f472b6]" },
   { name: "GreenLam", short: "GL", accent: "from-[#22c55e] to-[#84cc16]" },
+  { name: "MamaStop", short: "MS", accent: "from-[#7c3aed] to-[#38bdf8]" },
+  { name: "DevLabs", short: "DL", accent: "from-[#14b8a6] to-[#2dd4bf]" },
+  { name: "50Fin", short: "50", accent: "from-[#f59e0b] to-[#fb923c]" },
+  { name: "SudChemie", short: "SC", accent: "from-[#2563eb] to-[#60a5fa]" },
 ];
 
 const ClientCard = ({ client, index }) => (

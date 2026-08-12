@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useMemo } from "react";
+import React from "react";
 import Tilt from "react-tilt";
 
 import { services } from "../constants";
@@ -37,16 +37,6 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
-    // calculate experience from Jan 1, 2022
-  const experience = useMemo(() => {
-    const start = new Date("2022-01-01T00:00:00");
-    const now = new Date();
-    const diffMs = now - start;
-    const yearsDecimal = diffMs / (1000 * 60 * 60 * 24 * 365.25);
-    const rounded = Math.round(yearsDecimal * 10) / 10; // one decimal
-    return rounded.toFixed(1);
-  }, []);
-
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -70,7 +60,7 @@ const About = () => {
           "Scalable React and Next.js architectures",
           "Performance optimization and accessible UI systems",
           "Enterprise dashboards, KPIs, and complex workflows",
-          "AI-assisted development with GitHub Copilot and MCP",
+          "LLM integrations with OpenAI, Google GenAI, GitHub Copilot, and MCP",
         ].map((item) => (
           <div
             key={item}
