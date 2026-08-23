@@ -5,37 +5,83 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { BallCanvas } from "./canvas";
 
-// manual skill list (you can also keep this in constants.js if preferred)
-const skills = [
-  "ReactJS",
-  "NextJS",
-  "Redux Toolkit",
-  "Tailwind CSS",
-  "Chakra UI",
-  "Material UI",
-  "Ant Design",
-  "Framer Motion",
-  "D3.js",
-  "React Query (TanStack Query)",
-  "Zustand",
-  "React Native",
-  "Webpack",
-  "NodeJS",
-  "SQL",
-  "MongoDB",
-  "ExpressJS",
-  "OpenAI API",
-  "Google GenAI",
-  "LLM Integration",
-  "MCP",
-  "GitHub Copilot",
-  "AI Agents",
-  "MVC Architecture",
-  "Performance Optimization",
-  "Component-Based Architecture",
+// Grouped skills, mirroring the resume.
+const skillGroups = [
+  {
+    label: "Frontend",
+    items: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "React Native",
+      "HTML5",
+      "CSS3",
+      "SSR",
+      "Responsive Design",
+    ],
+  },
+  {
+    label: "Libraries",
+    items: [
+      "Redux Toolkit",
+      "Zustand",
+      "TanStack Query",
+      "Material UI",
+      "Chakra UI",
+      "Tailwind CSS",
+      "Framer Motion",
+      "AG Grid",
+      "D3.js",
+    ],
+  },
+  {
+    label: "Backend & DB",
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST API Development",
+      "Microservices",
+      "MongoDB",
+      "MongoDB Atlas",
+      "MongoDB Compass",
+    ],
+  },
+  {
+    label: "AI & GenAI",
+    items: [
+      "OpenAI API",
+      "Google GenAI API",
+      "LLM Integration",
+      "LangChain",
+      "LangGraph",
+      "LangSmith",
+      "RAG",
+      "Prompt Engineering",
+      "Embeddings & Vector DBs",
+      "AI Agents",
+      "GenAI with Node.js",
+      "MCP",
+      "Hugging Face",
+      "Tokenization & Usage Tracking",
+    ],
+  },
+  {
+    label: "Tools & Testing",
+    items: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Swagger",
+      "Webpack",
+      "Jest + React Testing Library",
+      "Figma",
+      "Claude",
+      "Cursor",
+      "GitHub Copilot",
+    ],
+  },
 ];
-
-
 
 const Tech = () => {
   return (
@@ -53,13 +99,27 @@ const Tech = () => {
         ))}
       </div>
 
-      {/* Inline bullet-separated skills */}
-      <div className="mt-6 max-w-5xl text-center text-secondary text-[16px] leading-relaxed px-4">
-        {skills.map((skill, idx) => (
-          <span key={skill}>
-            {skill}
-            {idx < skills.length - 1 && <span className="mx-2">•</span>}
-          </span>
+      {/* Grouped skill chips */}
+      <div className="mt-4 w-full max-w-5xl space-y-5 px-4">
+        {skillGroups.map((group) => (
+          <div
+            key={group.label}
+            className="rounded-2xl border border-white/10 bg-white/5 p-5"
+          >
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-[#915EFF]">
+              {group.label}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {group.items.map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full bg-tertiary px-3 py-1.5 text-[13px] text-white-100"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>

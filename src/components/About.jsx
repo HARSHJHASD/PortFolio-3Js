@@ -48,19 +48,22 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I’m a Frontend Engineer focused on building products that solve real
-        business problems across ESG, EHS, FinTech, and enterprise SaaS. Over
-        the past four years, I’ve delivered scalable dashboards, complex
-        workflows, reusable component systems, and data-rich interfaces while
-        collaborating closely with design, product, and backend teams.
+        I’m an <span className="text-white font-semibold">AI Full-Stack (MERN) Developer</span>{" "}
+        with 4+ years of experience building scalable enterprise platforms across
+        ESG, EHS, FinTech and EdTech. I work end to end — React.js/Next.js and
+        TypeScript on the frontend, Node.js and Express REST APIs on MongoDB on
+        the backend, and React Native for mobile. I also build and ship
+        Generative AI into production: LLM integration, LangChain, LangGraph and
+        LangSmith, RAG pipelines, embeddings and AI agents served through custom
+        backend endpoints.
       </motion.p>
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl">
         {[
-          "Scalable React and Next.js architectures",
-          "Performance optimization and accessible UI systems",
-          "Enterprise dashboards, KPIs, and complex workflows",
-          "LLM integrations with OpenAI, Google GenAI, GitHub Copilot, and MCP",
+          "Scalable React & Next.js architectures",
+          "Node.js & Express REST APIs on MongoDB",
+          "React Native mobile apps (published on Play Store)",
+          "LLM apps, RAG, AI agents (OpenAI, Gemini, LangChain)",
         ].map((item) => (
           <div
             key={item}

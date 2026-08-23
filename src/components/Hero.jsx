@@ -19,11 +19,11 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Harsh Jha</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-stack developer building scalable, high-performance web
-            applications with React.js, Next.js, Node.js, TypeScript, and
-            modern UI systems. I integrate LLM capabilities using OpenAI and
-            Google GenAI, alongside AI-assisted workflows, to deliver
-            thoughtful products faster—without compromising quality.
+            AI Full-Stack Developer with 4+ years building scalable enterprise
+            platforms — React.js, Next.js, TypeScript on the front, Node.js,
+            Express &amp; MongoDB on the back, and React Native on mobile. I ship
+            Generative AI into production: LLM integration, LangChain/LangGraph,
+            RAG and AI agents.
           </p>
         </div>
       </div>

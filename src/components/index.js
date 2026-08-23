@@ -3,6 +3,7 @@ import Clients from "./Clients";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Feedbacks from "./Feedbacks";
+import Github from "./Github";
 import Hero from "./Hero";
 import CanvasLoader from "./Loader";
 import Navbar from "./Navbar";
@@ -12,7 +13,7 @@ import { BallCanvas, ComputersCanvas, EarthCanvas, StarsCanvas } from './canvas'
 
 
 export {
-  About, BallCanvas, CanvasLoader, Clients, ComputersCanvas, Contact, EarthCanvas, Experience, Feedbacks, Hero,
+  About, BallCanvas, CanvasLoader, Clients, ComputersCanvas, Contact, EarthCanvas, Experience, Feedbacks, Github, Hero,
   Navbar, StarsCanvas, Tech, Works
 };
 

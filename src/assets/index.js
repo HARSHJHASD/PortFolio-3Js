@@ -1,5 +1,6 @@
 import Almondz from "./Almondz.png";
 import DevLabs from "./DevLabs.png";
+import orbyt from "./orbyt.png";
 import Sparrow from "./Sparrow.png";
 import Vedaxo from './Vedaxo.png';
 import backend from "./backend.png";
@@ -38,7 +39,7 @@ export {
   figma,
   git, github, html,
   javascript, jobit, logo, menu, meta, mobile, mongodb,
-  nodejs,
+  nodejs, orbyt,
   reactjs,
   redux, shopify, Sparrow, starbucks, tailwind, tesla, threejs, tripguide, typescript, Vedaxo, Voxturr, web
 };
